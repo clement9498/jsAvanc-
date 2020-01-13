@@ -1,0 +1,20 @@
+{
+  "name": "@clem/npm",
+  "version": "3.0.0",
+  "description": "test1",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test.js"
+  },
+  "author": "clem",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "nope"
+  },
+  "keywords": [
+    "clem"
+  ],
+  "dependencies": {},
+  "devDependencies": {}
+}

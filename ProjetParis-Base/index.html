@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="utf-8">
+    <title>Paris Bouge</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/flat-ui/2.3.0/css/flat-ui.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poiret+One">
+    <link rel="stylesheet" href="static/css/main.css">
+
+    <link rel="manifest" href="manifest.json">
+    <!-- Styles utilisateur -->
+</head>
+
+<body>
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container">
+            <a class="navbar-brand" href="/#/">Paris Events</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#main-menu">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="main-menu">
+                    <button id="webApp" class="btn btn-info btn-pwa">Ajouter à l'écran d'accueil ?</button>
+                <ul class="navbar-nav w-100">
+                    <li class="nav-item">
+                        <a class="nav-link" href="/#/">Accueil</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/#/search">Recherche</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/#/about">À Propos</a>
+                    </li>
+                    <li class="nav-item ml-auto">
+                        <a class="nav-link" id="login" href="/#/login">Connexion</a>
+                    </li>
+                </ul>
+            </div><!-- .navbar-collapse -->
+        </div><!-- .container -->
+    </nav><!-- .navbar -->
+
+    <main class="container"></main>
+
+    <script src="node_modules/vanilla-router/dist/vanilla-router.min.js"></script>
+    <script type="module" src="app/main.js"></script>
+
+    <script src="https://www.gstatic.com/firebasejs/5.8.2/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/5.8.2/firebase-auth.js"></script>
+
+    <!-- <script>
+        var firebaseConfig = {
+            apiKey: "AIzaSyBgBq3_M-ACc2FB7AAL1sCk11b7-jBflyQ",
+            authDomain: "monbetdeprojetdeouf.firebaseapp.com",
+            databaseURL: "https://monbetdeprojetdeouf.firebaseio.com",
+            projectId: "monbetdeprojetdeouf",
+            storageBucket: "monbetdeprojetdeouf.appspot.com",
+            messagingSenderId: "785241979059",
+            appId: "1:785241979059:web:7ee0b802ef3e4a6b5298c6",
+            measurementId: "G-2ZXRP34S2P"
+        };
+        firebase.initializeApp(firebaseConfig);
+    </script> -->
+</body>
+
+</html>
